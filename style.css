@@ -1,0 +1,49 @@
+:root {
+    --body-bg: rgb(3, 37, 46);
+    --input-bg: #159cc5;
+    --btn-bg: rgb(180, 39, 98);
+  }
+  body {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: var(--body-bg);
+  }
+  h1 {
+    margin: 3rem;
+    color: azure;
+  }
+  label {
+    display: block;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  #birthdate {
+    outline: black;
+    max-width: 250px;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: var(--input-bg);
+    width: 100%;
+    border: 1px solid var(--btn-bg);
+    border-radius: 1rem 1rem 1rem 1rem ;
+    margin: 20px;
+    color: #fff;
+  }
+  
+  #click {
+    background: var(--btn-bg);
+    border: aliceblue;
+    padding: 0.7rem 1rem;
+    border-radius: 1rem;
+    font-size: 25px;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+  }
+  #result {
+    font-size: xx-large;
+    color: aliceblue;
+  }
+  
